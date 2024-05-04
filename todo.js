@@ -4,7 +4,7 @@ function showDate()
 {
 
     console.log("hey")
-    let a = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+    let a = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
     let date = new Date();
     let hour = date.getHours();
@@ -17,6 +17,9 @@ function showDate()
     {
         x = "PM";
         hour = hour - 12;
+    }
+    else{
+        x = "AM";
     }
     document.getElementById("dt").innerHTML = `${day} - ${hour}:${min}:${sec} ${x}`
 }
