@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+
+body{
+    background-color: #2360cd;
+}
+
+.container{
+    width: 700px;
+    margin: 100px auto;
+    background-color: #fefffe;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container input{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    padding-inline: 20px;
+    border: 3px solid #668edd;
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.container button{
+    width: 15%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(43,108,235,255);
+    color: rgba(232,249,255,255);
+    border: none;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.todos p{
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+.todo-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(196,225,228,255);
+    border-radius: 5px;
+    margin-bottom: 2px;
+    margin-inline: 15px;
+    padding-inline: 15px;
+}
+
+.todo-div .btn{
+    background-color: #1f1da4;
+    float: right;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 3px;
+    width: 60px;
+}
+
+.fLine{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    align-items: center; 
+}
+
+.fLine h1{
+    margin-right: 100px;
+    margin-left: 240px;
+}
+
+.fLine dt{
+    text-align: center;
+}
