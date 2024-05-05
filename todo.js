@@ -54,7 +54,7 @@ function showData()
                 <p class="todo">${ele}</p>
                     <button onclick="deleteTodo(${indx})" 
                         class= "btn">
-                        Del
+                        <i class="fa-solid fa-trash"></i>
                     </button>
                 </div>`
     });

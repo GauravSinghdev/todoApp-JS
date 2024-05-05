@@ -53,15 +53,18 @@ body{
     margin-bottom: 2px;
     margin-inline: 15px;
     padding-inline: 15px;
+    align-items: center;
+    padding: 10px;
 }
 
 .todo-div .btn{
     background-color: #1f1da4;
     float: right;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 3px;
     width: 60px;
+    text-align: center;
 }
 
 .fLine{
@@ -78,4 +81,9 @@ body{
 
 .fLine dt{
     text-align: center;
+}
+
+.todo{
+    width: 80%;
+    word-wrap: break-word;
 }
