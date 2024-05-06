@@ -38,6 +38,7 @@ body{
     border: none;
     font-size: 25px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .todos p{
