@@ -45,8 +45,8 @@ body{
     font-size: 25px;
     /* padding-top: 2px; */
     text-align: left;
-
 }
+
 
 .todo-div{
     display: flex;
@@ -90,4 +90,11 @@ body{
 .todo{
     width: 80%;
     word-wrap: break-word;
+}
+
+.todop{
+    font-size: 25px;
+    width: 200px;
+    margin: 10px auto;
+    margin-bottom: 5px;
 }

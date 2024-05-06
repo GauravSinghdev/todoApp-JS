@@ -58,7 +58,7 @@ function showData()
     document.getElementById("todos").innerHTML = html;
 
     if(html == "")
-    document.getElementById("todos").innerHTML = `<p>Todos are empty</p>`
+    document.getElementById("todos").innerHTML = `<p class="todop">Todos are empty</p>`
 }
 document.onload = showData();
 
@@ -88,7 +88,6 @@ function addTodo()
 
 function deleteTodo(index)
 {
-    console.log("clicked");
     let alltodos;
     if(localStorage.getItem("alltodos") == null)
     {
