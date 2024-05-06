@@ -2,8 +2,6 @@ setInterval(showDate,10);
 
 function showDate()
 {
-
-    console.log("hey")
     let a = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
     let date = new Date();
@@ -41,7 +39,6 @@ function showData()
     if(localStorage.getItem("alltodos") == null)
     {
         alltodos = [];
-        
     }
     else{
         alltodos = JSON.parse(localStorage.getItem("alltodos"));
@@ -81,7 +78,6 @@ function addTodo()
         }
 
         alltodos.push(txt);
-
         localStorage.setItem("alltodos", JSON.stringify(alltodos));
         showData();
 

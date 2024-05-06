@@ -43,7 +43,9 @@ body{
 
 .todos p{
     font-size: 25px;
-    padding-top: 8px;
+    /* padding-top: 2px; */
+    text-align: left;
+
 }
 
 .todo-div{
@@ -53,13 +55,14 @@ body{
     border-radius: 5px;
     margin-bottom: 2px;
     margin-inline: 15px;
-    padding-inline: 15px;
     align-items: center;
     padding: 7px;
+    padding-inline: 25px;
 }
 
 .todo-div .btn{
-    background-color: #1f1da4;
+    background-color: rgba(255, 0, 0, 0.801);
+    color: white;
     float: right;
     cursor: pointer;
     font-size: 20px;
